@@ -6,14 +6,20 @@ The Official Rhocraft Handbook
 		1.1.3.	A moderator will not get angry or vengeful while on duty.
 		1.1.4.	A moderator’s actions will be exclusively for the good of the server while on duty.
 		1.1.5.	A moderator will judge any violation of the rules fairly.
-		1.1.6.	A moderator will record any disciplinary actions take in the records of the player they were taken against. (Details of notes can be found in section 1.4.1.1)
+		1.1.6.	A moderator will verbosely record anything important done or observed in the appropriate section.
+			1.1.6.1.	Details on adding notes can be found in section 1.4.1.1.
+			1.1.6.2.	Important Things:
+				1.1.6.2.1.	Disciplinary actions taken.
+					1.1.6.2.1.1. Section: 	The name of the player the actions were taken against.
+				1.2.6.2.2.	Warnings given.
+					1.1.6.2.2.1. Section: 	The name of the player the warning was given to.
 	1.2.	Moderator Guidelines
 		1.2.1.	A moderator’s job is to help those that require assistance without compromising any intended challenges.
 	1.3.	Responses to common situations
 		1.3.1.	Begging
 			1.3.1.1.	Definition:	A solicitation for the purpose of receiving anything of value without giving anything in return.
 			1.3.1.2.	Reactions
-				1.3.1.2.1.	First offence:		Politely ask the player committing the offense to stop.
+				1.3.1.2.1.	First offense:		Politely ask the player committing the offense to stop.
 				1.3.1.2.2.	Second offense: 	Mute the player committing the offense for a reasonable amount of time.  (Details of muting can be found in section 1.4.2.1)  Be sure to unmute the player before you logout. (Details of unmuting can be found in section 1.4.2.2)
 		1.3.2.	Message spamming
 			1.3.2.1.	Definition:  The repeating of an in-game message in a very short amount of time.  Repeating a slightly altered message with the same subject as the original is also message spamming.
@@ -26,7 +32,7 @@ The Official Rhocraft Handbook
 			1.3.3.1.	Definition:	The procuring of items from the locked chest, or corpse of another player who is not participating in factions.
 			1.3.3.2.	Reactions
 				1.3.3.2.1.	First offense:		 Supervise the player committing the offense returning all the items, and repairing any damage that have caused. Optionally ban the offending player if the intent was malicious. (Details of banning can be found in section 1.4.3.1)
-		1.3.4.	Greifing
+		1.3.4.	Griefing
 			1.3.4.1.	Definition:	The destruction of the property of another player who is not participating in factions.
 			1.3.4.2.	Reactions
 				1.3.4.2.1.	First offense:		Ban the player committing the offense for three days. (This is the minimum punishment if found guilty of greifing) (Details of banning can be found in section 1.4.3.1)
@@ -34,8 +40,9 @@ The Official Rhocraft Handbook
 				1.3.4.2.3.	Third offense:		Ban the player committing the offense permanently. (Details of banning can be found in section 1.4.3.1)
 	1.4.	Commands:
 		1.4.1.	Notes
-			1.4.1.1.	/note add <player> <note>		This command adds a note with the contents specified in <note> to the player with the username <player>.
-			1.4.1.2.	/note remove <player> <note number>	This command removes the note with the id <note number> from the player with the username <player>.
+			1.4.1.1.	/note add <player> <note>		Adds a note with the contents specified in <note> to the player with the username <player>.
+			1.4.1.2.	/note remove <player> <note number>		Removes the note with the id <note number> from the player with the username <player>.
+			1.4.1.3		/note show <player>		Shows all notes pertaining to the player with the username <player>.
 		1.4.2.	Muting
 			1.4.2.1.	/mute <player>	Removes the ability to speak in-game from the player with the username <player>.
 			1.4.2.2.	/unmute <player> 	Returns the ability to speak in-game to the player with the username <player>.
